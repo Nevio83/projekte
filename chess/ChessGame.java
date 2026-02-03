@@ -78,9 +78,9 @@ public class ChessGame extends JFrame {
         panel.add(subTitle, gbc);
 
         // Buttons
-        gbc.gridy = 2; panel.add(createDifficultyButton("Leicht (Tiefe 1)", 1), gbc);
-        gbc.gridy = 3; panel.add(createDifficultyButton("Mittel (Tiefe 2)", 2), gbc);
-        gbc.gridy = 4; panel.add(createDifficultyButton("Schwer (Tiefe 3)", 3), gbc);
+        gbc.gridy = 2; panel.add(createDifficultyButton("Leicht (Stufe 1)", 1), gbc);
+        gbc.gridy = 3; panel.add(createDifficultyButton("Mittel (Stufe 2)", 2), gbc);
+        gbc.gridy = 4; panel.add(createDifficultyButton("Schwer (Stufe 3)", 3), gbc);
         // Tiefe 4 ist in Java ohne Transposition Table oft zu langsam für GUI, lassen wir es bei 3 als Max für "Schwer"
         // Oder wir optimieren es später. Für jetzt sicherheitshalber 3.
 
